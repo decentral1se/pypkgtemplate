@@ -1,0 +1,16 @@
+---
+
+cookiecutter:
+  image: python:3.6.7-stretch
+  before_script:
+    - pip install cookiecutter==1.6.0
+  script:
+    - |
+      cookiecutter \
+      --no-input https://git.coop/decentral1se/pypkgtemplate.git \
+      --checkout "$CI_COMMIT_REF_NAME" \
+      package="cipackage" \
+      author="ciauthor" \
+      author_email="ciauthoremail" \
+      git_hosting_url="cigithostingurl" \
+      support="cisupport"
