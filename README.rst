@@ -13,7 +13,7 @@ A Python package cookiecutter with modern tooling
    :target: LICENSE
    :alt: Repository license
 
-.. image:: https://img.shields.io/badge/support-maintainer-lightgreen.svg
+.. image:: https://img.shields.io/badge/support-maintainer-brightgreen.svg
    :target: https://lukewm.info/support/
    :alt: Support badge
 
