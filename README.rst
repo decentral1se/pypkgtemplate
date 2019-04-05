@@ -67,8 +67,9 @@ Assumptions
 * Use Gitlab CI for code coverage report
 
 These are based on my current preferences but I am open to accepting
-contributions to customise this behaviour. I know a lot of people use different
-platforms out there in the wild.
+contributions to customise this behaviour. 
+
+I know a lot of people use different platforms out there in the wild.
 
 Usage
 =====
@@ -77,7 +78,7 @@ Install `cookiecutter`_ and then invoke the following spell:
 
 .. code-block:: bash
 
-    cookiecutter https://git.coop/decentral1se/pypkgtemplate.git
+    cookiecutter gh:decentral1se/pypkgtemplate
 
 .. _cookiecutter: https://cookiecutter.readthedocs.io/en/latest/
 
