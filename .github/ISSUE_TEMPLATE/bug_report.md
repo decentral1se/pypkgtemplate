@@ -6,23 +6,19 @@ about: Create a report to help us improve
 <!--
   If you do not have capacity to contribute to resolving the issue that you
   will now open, please consider supporting the maintainer and donating at
-  {{cookiecutter.support}}.
+  https://lukewm.info/support/
 -->
 
 # Issue Type
 
 - Bug report
 
-# {{cookiecutter.package}} details
+# pypkgtemplate details
 
-```
-{{cookiecutter.package}} --version
-```
-
-{{cookiecutter.package}} installation method (one of):
+pypkgtemplate installation method (one of):
 
 - source
-- pip
+- cookiecutter
 
 # Desired Behavior
 
