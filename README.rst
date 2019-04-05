@@ -12,13 +12,13 @@ A Python package cookiecutter for modern tooling boilerplate
 .. image:: https://img.shields.io/badge/license-GPL-brightgreen.svg
    :target: LICENSE
    :alt: Repository license
-   
-.. image:: https://img.shields.io/badge/support-maintainer-lightgreen.svg
-   :target: https://lukewm.info/support/
-   :alt: Support badge
 
 Support
 -------
+
+.. image:: https://img.shields.io/badge/support-maintainer-lightgreen.svg
+   :target: https://lukewm.info/support/
+   :alt: Support badge
 
 This package is created and maintained by `decentral1se`_.
 
