@@ -1,7 +1,3 @@
----
-name: ✨ Feature request
-about: Suggest an idea for the project
----
 <!--- Verify first that your issue is not already reported on the issue tracker -->
 <!--
   If you do not have capacity to contribute to resolving the that you will now
