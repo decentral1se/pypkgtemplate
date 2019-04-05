@@ -82,6 +82,12 @@ Install `cookiecutter`_ and then invoke the following spell:
 
 .. _cookiecutter: https://cookiecutter.readthedocs.io/en/latest/
 
+Then you manually need to:
+
+* Create your `readthedocs`_ project
+
+.. _readthedocs: https://readthedocs.org/accounts/login/
+
 Variables
 =========
 
