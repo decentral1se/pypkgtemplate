@@ -88,6 +88,10 @@ Then you manually need to:
 
 .. _readthedocs: https://readthedocs.org/accounts/login/
 
+Refer to `CONTRIBUTING.rst`_ for the developer interface.
+
+.. _CONTRIBUTING.rst: ./{{cookiecutter.package}}/CONTRIBUTING.rst
+
 Variables
 =========
 
