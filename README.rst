@@ -57,6 +57,7 @@ Design Principles
 * Use standardised tooling for testing (tox, pytest, coverage)
 * Use standardised tooling for documentation (sphinx, towncrier, reStructuredText, readthedocs)
 * Use best-in-class tools for quality assurance (flake8, isort, mypy, black)
+* Include well known maintenance hacks (covenant CoC, .github/.gitlab templates)
 * Make no assumptions about the Python package code (different every time)
 
 Assumptions
