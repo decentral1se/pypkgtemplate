@@ -13,12 +13,12 @@ A Python package cookiecutter with modern tooling
    :target: LICENSE
    :alt: Repository license
 
-Support
--------
-
 .. image:: https://img.shields.io/badge/support-maintainer-lightgreen.svg
    :target: https://lukewm.info/support/
    :alt: Support badge
+
+Support
+-------
 
 This package is created and maintained by `decentral1se`_.
 
