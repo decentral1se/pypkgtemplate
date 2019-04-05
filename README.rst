@@ -54,8 +54,8 @@ Design Principles
 =================
 
 * Use standardised tooling for packaging and dependencies (setuptools, twine).
-* Use standardised tooling for testing (tox, pytest)
-* Use standardised tooling for documentation (sphinx, reStructuredText, readthedocs)
+* Use standardised tooling for testing (tox, pytest, coverage)
+* Use standardised tooling for documentation (sphinx, towncrier, reStructuredText, readthedocs)
 * Use best-in-class tools for quality assurance (flake8, isort, mypy, black)
 * Make no assumptions about the Python package code (different every time)
 
