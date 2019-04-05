@@ -27,14 +27,12 @@ Format source
 
     tox -e format
 
-
 Type check source
 -----------------
 
 .. code-block:: bash
 
     tox -e type
-
 
 Development install
 -------------------
@@ -43,6 +41,13 @@ Development install
 
     $ pip install -e .'[test,lint,format,type,docs,pkg]'
 
+Add a new dependency
+--------------------
+
+You add to the `install_requires`_ entry in the `setup.cfg`_.
+
+.. _install_requires: https://setuptools.readthedocs.io/en/latest/setuptools.html#options
+.. _setup.cfg: ./setup.cfg
 
 Release Process
 ---------------
