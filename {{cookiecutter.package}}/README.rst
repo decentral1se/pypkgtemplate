@@ -26,7 +26,7 @@
    :target: {{cookiecutter.git_hosting_url}}/{{cookiecutter.package}}/commits/master
    :alt: Coverage report
 
-{{cookiecutter.description}}
+{{cookiecutter.package_description}}
 ----------------------------
 
 .. _support:
