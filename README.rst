@@ -2,8 +2,8 @@
 pypkgtemplate
 *************
 
-A Python package cookiecutter for modern tooling boilerplate
-------------------------------------------------------------
+A Python package cookiecutter with modern tooling
+-------------------------------------------------
 
 .. image:: https://git.coop/decentral1se/pypkgtemplate/badges/master/pipeline.svg
    :target: https://git.coop/decentral1se/pypkgtemplate/commits/master
