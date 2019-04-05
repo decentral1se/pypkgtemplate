@@ -6,7 +6,7 @@ cookiecutter:
     - pip install cookiecutter==1.6.0
   script:
     - |
-      cookiecutter \
+      cookiecutter --verbose \
       --no-input https://git.coop/decentral1se/pypkgtemplate.git \
       --checkout "$CI_COMMIT_REF_NAME" \
       package="cipackage" \
