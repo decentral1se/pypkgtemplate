@@ -18,16 +18,16 @@
    :target: https://{{cookiecutter.package}}.readthedocs.io/en/latest/
    :alt: Documentation status
 
-.. image:: {{cookiecutter.git_hosting_url}}/{{cookiecutter.package}}/badges/master/pipeline.svg
-   :target: {{cookiecutter.git_hosting_url}}/{{cookiecutter.package}}/commits/master
+.. image:: {{cookiecutter.git_hosting_url}}/badges/master/pipeline.svg
+   :target: {{cookiecutter.git_hosting_url}}/commits/master
    :alt: CI pipeline status
 
-.. image:: {{cookiecutter.git_hosting_url}}/{{cookiecutter.package}}/badges/master/coverage.svg
-   :target: {{cookiecutter.git_hosting_url}}/{{cookiecutter.package}}/commits/master
+.. image:: {{cookiecutter.git_hosting_url}}/badges/master/coverage.svg
+   :target: {{cookiecutter.git_hosting_url}/commits/master
    :alt: Coverage report
 
 {{cookiecutter.package_description}}
-----------------------------
+------------------------------------
 
 .. _support:
 
@@ -56,7 +56,8 @@ Documentation
 Code of Conduct
 ***************
 
-By participating in the {{cookiecutter.package}} community, you agree on the
-following code of conduct. Please see `CODE_OF_CONDUCT`_ for the full text.
+By participating in the {{cookiecutter.package}} community, you
+agree on the following code of conduct. Please see
+`CODE_OF_CONDUCT`_ for the full text.
 
 .. _CODE_OF_CONDUCT: ./CODE_OF_CONDUCT

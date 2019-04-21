@@ -1,0 +1,64 @@
+---
+
+stages:
+  - quality
+  - testing
+  - documentation
+  - packaging
+
+image: python:3.7.3-stretch
+
+before_script:
+  - pip install tox==3.9.0
+
+flake8:
+  stage: quality
+  script:
+    - tox -e lint
+
+isort:
+  stage: quality
+  script:
+    - tox -e sort
+
+black:
+  stage: quality
+  script:
+    - tox -e format
+
+mypy:
+  stage: quality
+  script:
+    - tox -e type
+
+pytest35:
+  image: python:3.5.7-stretch
+  stage: testing
+  script:
+    - tox -e py35-test
+
+pytest36:
+  image: python:3.6.7-stretch
+  stage: testing
+  script:
+    - tox -e py36-test
+
+pytest37:
+  stage: testing
+  script:
+    - tox -e py37-test
+
+sphinx:
+  stage: documentation
+  script:
+    - tox -e docs
+
+towncrier:
+  stage: documentation
+  script:
+    - tox -e changelog
+
+twine:
+  stage: packaging
+  script:
+    - tox -e metadata-release
