@@ -2,9 +2,6 @@
 pypkgtemplate
 *************
 
-A Python package cookiecutter with modern tooling
--------------------------------------------------
-
 .. image:: https://git.coop/decentral1se/pypkgtemplate/badges/master/pipeline.svg
    :target: https://git.coop/decentral1se/pypkgtemplate/commits/master
    :alt: Pipeline status
@@ -16,6 +13,9 @@ A Python package cookiecutter with modern tooling
 .. image:: https://img.shields.io/badge/support-maintainers-brightgreen.svg
    :target: https://lukewm.info/support/
    :alt: Support badge
+
+A Python package cookiecutter with modern tooling
+-------------------------------------------------
 
 Why another template?
 =====================
