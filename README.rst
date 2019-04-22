@@ -13,25 +13,9 @@ A Python package cookiecutter with modern tooling
    :target: LICENSE
    :alt: Repository license
 
-.. image:: https://img.shields.io/badge/support-maintainer-brightgreen.svg
+.. image:: https://img.shields.io/badge/support-maintainers-brightgreen.svg
    :target: https://lukewm.info/support/
    :alt: Support badge
-
-Support
--------
-
-This package is created and maintained by `decentral1se`_.
-
-Please consider supporting their work by donating.
-
-    https://lukewm.info/support
-
-.. _decentral1se: https://lukewm.info/
-
-.. _documentation:
-
-Documentation
--------------
 
 Why another template?
 =====================
