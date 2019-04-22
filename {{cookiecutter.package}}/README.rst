@@ -26,25 +26,12 @@
    :target: {{cookiecutter.git_hosting_url}}/commits/master
    :alt: Coverage report
 
-{{cookiecutter.package_description}}
-------------------------------------
-
-.. _support:
-
-Support
-*******
-
-.. image:: https://img.shields.io/badge/support-me-lightgreen.svg
+.. image:: https://img.shields.io/badge/support-maintainers-lightgreen.svg
    :target: {{cookiecutter.support}}
    :alt: Support badge
 
-This package is created and maintained by `{{cookiecutter.author}}`_
-
-Please consider supporting their work by donating.
-
-    {{cookiecutter.support}}
-
-.. _{{cookiecutter.author}}: {{cookiecutter.author_site}}
+{{cookiecutter.package_description}}
+------------------------------------
 
 .. _documentation:
 
@@ -56,8 +43,7 @@ Documentation
 Code of Conduct
 ***************
 
-By participating in the {{cookiecutter.package}} community, you
-agree on the following code of conduct. Please see
-`CODE_OF_CONDUCT`_ for the full text.
+By participating in the {{cookiecutter.package}} community, you agree on the
+following code of conduct. Please see `CODE_OF_CONDUCT`_ for the full text.
 
 .. _CODE_OF_CONDUCT: ./CODE_OF_CONDUCT
