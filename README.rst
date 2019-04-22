@@ -91,3 +91,11 @@ Variables
         "package_description": "",
         "support": ""
     }
+
+* **package**: The package name.
+* **author**: The package creator.
+* **author_email**: The package creator's email.
+* **author_site**: The package creator's website.
+* **git_hosting_url**: The git hosting URL of the package.
+* **package_description**: The package short description.
+* **support**: The package creator's support/donation URL.
