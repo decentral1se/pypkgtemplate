@@ -26,7 +26,7 @@
    :target: {{cookiecutter.git_hosting_url}}/commits/master
    :alt: Coverage report
 
-.. image:: https://img.shields.io/badge/support-maintainers-lightgreen.svg
+.. image:: https://img.shields.io/badge/support-maintainers-brightgreen.svg
    :target: {{cookiecutter.support}}
    :alt: Support badge
 
