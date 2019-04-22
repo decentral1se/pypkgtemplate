@@ -23,7 +23,7 @@
    :alt: CI pipeline status
 
 .. image:: {{cookiecutter.git_hosting_url}}/badges/master/coverage.svg
-   :target: {{cookiecutter.git_hosting_url}/commits/master
+   :target: {{cookiecutter.git_hosting_url}}/commits/master
    :alt: Coverage report
 
 {{cookiecutter.package_description}}
