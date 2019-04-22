@@ -1,16 +1,21 @@
 ---
 
 cookiecutter:
-  image: python:3.6.7-stretch
+  image: python:3.7.3-stretch
   before_script:
-    - pip install cookiecutter==1.6.0
+    - pip install cookiecutter==1.6.0 tox==3.9.0
+    - apt-get update && apt-get install -yqq git
   script:
     - |
       cookiecutter --verbose \
       --no-input https://git.coop/decentral1se/pypkgtemplate.git \
       --checkout "$CI_COMMIT_REF_NAME" \
-      package="cipackage" \
-      author="ciauthor" \
-      author_email="ciauthoremail" \
-      git_hosting_url="cigithostingurl" \
-      support="cisupport"
+      package="pypkgtemplate" \
+      author="decentral1se" \
+      author_email="foobar@riseup.net" \
+      git_hosting_url="https://git.coop/decentral1se/pypkgtemplate" \
+      package_description="Foo Bar" \
+      support="https://supportmaintainers.foobar"
+    - cd pypkgtemplate
+    - git init
+    - tox
