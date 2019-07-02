@@ -5,9 +5,8 @@ Contents:
 =========
 
 .. toctree::
-   :maxdepth: 3
 
-   installation
-   usage
-   contributing
+   install
+   contribute
    changelog
+   code-of-conduct

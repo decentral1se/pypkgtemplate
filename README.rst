@@ -66,6 +66,7 @@ Variables
 
     {
         "package": "",
+        "organisation": "",
         "author": "",
         "author_email": "",
         "author_site": "",
@@ -75,6 +76,7 @@ Variables
     }
 
 * **package**: The package name.
+* **organisation**: The organisation name (for code of conduct).
 * **author**: The package creator.
 * **author_email**: The package creator's email.
 * **author_site**: The package creator's website.
