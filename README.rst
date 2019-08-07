@@ -39,7 +39,7 @@ Design Principles
 * Use standardised tooling for documentation (sphinx, towncrier, reStructuredText, readthedocs)
 * Use best-in-class tools for quality assurance (flake8, isort, mypy, black)
 * Use community and maintenance aids (CodeOfConduct, issue templates)
-* Use Drone CI configuration.
+* Make common CI configurations available (Gitlab CI, Travis CI, Drone CI)
 * Use GPL version 3+ for the license.
 
 Usage
