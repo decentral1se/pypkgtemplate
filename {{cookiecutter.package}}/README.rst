@@ -31,11 +31,3 @@ Documentation
 *************
 
 * https://{{cookiecutter.package}}.readthedocs.io/
-
-Code of Conduct
-***************
-
-By participating in the {{cookiecutter.package}} community, you agree on the
-following code of conduct. Please see `CODE_OF_CONDUCT`_ for the full text.
-
-.. _CODE_OF_CONDUCT: ./CODE_OF_CONDUCT
