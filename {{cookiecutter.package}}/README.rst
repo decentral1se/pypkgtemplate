@@ -12,6 +12,10 @@
    :target: https://badge.fury.io/py/{{cookiecutter.package}}
    :alt: PyPI package
 
+.. image:: https://travis-ci.com/datpy/flat-tree.svg?branch=master
+   :target: https://travis-ci.com/datpy/flat-tree
+   :alt: Travis CI result
+
 .. image:: https://readthedocs.org/projects/{{cookiecutter.package}}/badge/?version=latest
    :target: https://{{cookiecutter.package}}.readthedocs.io/en/latest/
    :alt: Documentation status
