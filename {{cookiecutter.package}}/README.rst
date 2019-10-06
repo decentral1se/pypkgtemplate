@@ -12,7 +12,7 @@
    :target: https://badge.fury.io/py/{{cookiecutter.package}}
    :alt: PyPI package
 
-.. image:: https://travis-ci.com/datpy/flat-tree.svg?branch=master
+.. image:: https://travis-ci.com/datpy/{{cookiecutter.package}}.svg?branch=master
    :target: https://travis-ci.com/datpy/flat-tree
    :alt: Travis CI result
 
@@ -28,6 +28,16 @@
 
 {{cookiecutter.package_description}}
 ------------------------------------
+
+.. _example:
+
+Example
+*******
+
+
+.. code-block:: python
+
+    # TODO
 
 .. _documentation:
 
