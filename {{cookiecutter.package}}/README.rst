@@ -13,7 +13,7 @@
    :alt: PyPI package
 
 .. image:: https://travis-ci.com/datpy/{{cookiecutter.package}}.svg?branch=master
-   :target: https://travis-ci.com/datpy/flat-tree
+   :target: https://travis-ci.com/datpy/{{cookiecutter.package}}
    :alt: Travis CI result
 
 .. image:: https://readthedocs.org/projects/{{cookiecutter.package}}/badge/?version=latest
