@@ -35,11 +35,11 @@ Design Principles
 
 * Make no assumptions about the Python package code (different every time)
 * Use standardised tooling for packaging and dependencies (setuptools, twine).
-* Use standardised tooling for testing (tox, pytest, coverage)
-* Use standardised tooling for documentation (sphinx, towncrier, reStructuredText, readthedocs)
+* Use best-in-class tooling for testing (tox, pytest, coverage)
+* Use best-in-class tooling for documentation (sphinx, towncrier, reStructuredText, readthedocs)
 * Use best-in-class tools for quality assurance (flake8, isort, mypy, black)
-* Use community and maintenance aids (CodeOfConduct, issue templates)
-* Make common CI configurations available (Gitlab CI, Travis CI, Drone CI)
+* Use community and maintenance aids (CoC templates, issue templates)
+* Provide common CI configurations (Travis CI)
 * Use GPL version 3+ for the license.
 
 Usage
