@@ -12,8 +12,8 @@
    :target: https://badge.fury.io/py/{{cookiecutter.package}}
    :alt: PyPI package
 
-.. image:: https://travis-ci.com/datpy/{{cookiecutter.package}}.svg?branch=master
-   :target: https://travis-ci.com/datpy/{{cookiecutter.package}}
+.. image:: https://travis-ci.com/{{cookiecutter.organisation}}/{{cookiecutter.package}}.svg?branch=master
+   :target: https://travis-ci.com/{{cookiecutter.organisation}}/{{cookiecutter.package}}
    :alt: Travis CI result
 
 .. image:: https://readthedocs.org/projects/{{cookiecutter.package}}/badge/?version=latest
