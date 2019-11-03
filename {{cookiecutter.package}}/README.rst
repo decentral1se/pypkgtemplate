@@ -34,7 +34,6 @@
 Example
 *******
 
-
 .. code-block:: python
 
     # TODO
