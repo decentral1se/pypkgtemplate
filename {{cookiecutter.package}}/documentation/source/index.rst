@@ -1,12 +1,12 @@
 .. include:: ../../README.rst
   :end-before: _documentation
 
-Table of Contents
-*****************
-
 .. toctree::
+   :maxdepth: 1
+   :hidden:
 
    install
+   upgrade
    contribute
    changelog
    code-of-conduct
