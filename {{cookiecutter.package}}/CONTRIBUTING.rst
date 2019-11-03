@@ -10,54 +10,61 @@ Run tests
 
 .. code-block:: bash
 
-    tox -e test
+    $ tox -e test
 
 Lint source
 -----------
 
 .. code-block:: bash
 
-    tox -e lint
+    $ tox -e lint
 
 Format source
 -------------
 
 .. code-block:: bash
 
-    tox -e format
+    $ tox -e format
 
 Type check source
 -----------------
 
 .. code-block:: bash
 
-    tox -e type
+    $ tox -e type
 
-Release Process
----------------
-
-Add a change entry and re-generate the changelog:
+Build the documentation
+-----------------------
 
 .. code-block:: bash
 
-    $ towncrier
+    $ tox -e docs
+    $ tox -e docs-livereload
 
-Make a new release tag:
 
-.. code-block:: bash
+Make a new release
+------------------
 
-    $ git tag x.x.x
-    $ git push --tags
-
-If you have a development install locally, you can verify:
-
-.. code-block:: bash
-
-    $ {{cookiecutter.package}} --version
-
-Then run the release process:
+Ensure metadata for packaging is correct.
 
 .. code-block:: bash
 
     $ tox -e metadata-release
+
+Generate the changelog with the next target version.
+
+.. code-block:: bash
+
+    $ export VERSION=1.0.1 tox -e changelog
+
+Make a new Git tag.
+
+.. code-block:: bash
+
+    $ git tag  -a 1.0.1
+
+And finally, make a new release.
+
+.. code-block:: bash
+
     $ tox -e release
