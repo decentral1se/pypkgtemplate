@@ -6,8 +6,8 @@ pypkgtemplate
    :target: LICENSE
    :alt: Repository license
 
-.. image:: https://img.shields.io/badge/support-maintainers-brightgreen.svg
-   :target: https://decentral1.se
+.. image:: http://img.shields.io/liberapay/patrons/decentral1se.svg?logo=liberapay
+   :target: https://liberapay.com/decentral1se
    :alt: Support badge
 
 A Python package cookiecutter with modern tooling
@@ -38,6 +38,7 @@ Design Principles
 * Use best-in-class tooling for testing (tox, pytest, coverage)
 * Use best-in-class tooling for documentation (sphinx, towncrier, reStructuredText, readthedocs)
 * Use best-in-class tools for quality assurance (flake8, isort, mypy, black)
+* Use best-in-class community financial funding platforms (Liberapay)
 * Use community and maintenance aids (CoC templates, issue templates)
 * Provide common CI configurations (Travis CI)
 * Use GPL version 3+ for the license.
@@ -72,7 +73,7 @@ Variables
         "author_site": "",
         "git_hosting_url": "",
         "package_description": "",
-        "support": ""
+        "liberpay_username": ""
     }
 
 * **package**: The package name.
@@ -82,4 +83,4 @@ Variables
 * **author_site**: The package creator's website.
 * **git_hosting_url**: The git hosting URL of the package.
 * **package_description**: The package short description.
-* **support**: The package creator's support/donation URL.
+* **liberapay_username**: The package creator's Liberpay username.

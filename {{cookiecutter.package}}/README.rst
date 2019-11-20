@@ -20,8 +20,8 @@
    :target: https://{{cookiecutter.package}}.readthedocs.io/en/latest/
    :alt: Documentation status
 
-.. image:: https://img.shields.io/badge/support-maintainers-brightgreen.svg
-   :target: {{cookiecutter.support}}
+.. image:: http://img.shields.io/liberapay/patrons/{{cookiecutter.liberpay_username}}.svg?logo=liberapay
+   :target: https://liberapay.com/{{cookiecutter.liberpay_username}}
    :alt: Support badge
 
 .. _introduction:
