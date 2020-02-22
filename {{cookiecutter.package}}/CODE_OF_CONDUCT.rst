@@ -23,7 +23,7 @@ behind the code of conduct.
 The {{cookiecutter.organisation | capitalize}} community works towards
 providing a welcoming environment where participants are treated with dignity
 and respect and are free to be themselves. We encourage all participants to
-approach the Librehosters network with an open and positive attitude, engaging
+approach the {{cookiecutter.organisation | capitalize}} network with an open and positive attitude, engaging
 constructively with others at all times.
 
 Respect for Diversity & Inclusion
@@ -97,7 +97,7 @@ Overseeing the code of conduct
 The {{cookiecutter.organisation | capitalize}} community, composed of
 volunteers, oversees the code of conduct, including addressing all incident
 reports. Breaking the code of conduct may result in immediate expulsion from
-the Librehosters network.
+the {{cookiecutter.organisation | capitalize}} network.
 
 How to Report an Incident
 =========================
