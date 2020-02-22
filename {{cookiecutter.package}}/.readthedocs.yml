@@ -4,13 +4,13 @@ build:
   image: latest
 
 sphinx:
-  configuration: documentation/source/conf.py
+  configuration: docs/source/conf.py
   fail_on_warning: true
 
 python:
   version: 3.8
   install:
-  - method: pip
-    path: .
-    extra_requirements:
-      - docs
+    - method: pip
+      path: .
+      extra_requirements:
+        - docs
