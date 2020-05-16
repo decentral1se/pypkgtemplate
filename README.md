@@ -19,7 +19,7 @@ standardised and reliable.
 ## Usage
 
 ```sh
-$ cookiecutter https://hack.decentral1.se/decentral1se/pypkgtemplate.git
+$ cookiecutter https://git.autonomic.zone/decentral1se/pypkgtemplate.git
 ```
 
 ## Variables
