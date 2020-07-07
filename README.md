@@ -19,6 +19,8 @@ standardised and reliable.
 ## Usage
 
 ```sh
+$ python -m pip install --user pipx
+$ pipx install cookiecutter
 $ cookiecutter https://git.autonomic.zone/decentral1se/pypkgtemplate.git
 ```
 
